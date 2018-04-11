@@ -1,0 +1,34 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::zevioo"
+msgid "Zevioo"
+msgstr "Zevioo"
+
+msgctxt "Addons::description::zevioo"
+msgid "An AI-powered marketing platform created by zampple to help e-shops build relationships with their customers by generating and promoting genuine product reviews, personalising content, tracking and automatically moderating customer experience."
+msgstr "An AI-powered marketing platform created by zampple to help e-shops build relationships with their customers by generating and promoting genuine product reviews, personalising content, tracking and automatically moderating customer experience."
+
+msgctxt "Languages::zevioo"
+msgid "Zevioo"
+msgstr "Zevioo"
+
+msgctxt "Languages::ean"
+msgid "EAN"
+msgstr "EAN"
+
+msgctxt "SettingsSections::zevioo::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::zevioo::username"
+msgid "Username"
+msgstr "Username"
+
+
+msgctxt "SettingsOptions::zevioo::password"
+msgid "Password"
+msgstr "Password"

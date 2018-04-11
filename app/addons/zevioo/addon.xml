@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>zevioo</id>
+    <version>1.0</version>
+    <priority>777</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+					<item id="username">
+                        <type>input</type>
+                    </item>
+					<item id="password">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+	<queries>
+        <item>
+            ALTER TABLE `?:products` ADD COLUMN `ean` char(255) NOT NULL DEFAULT '';
+        </item>
+		<item for="uninstall">ALTER TABLE `?:products` DROP `ean`;</item>
+	</queries>	
+</addon>
