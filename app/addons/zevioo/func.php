@@ -45,7 +45,7 @@ function fn_zevioo_place_order($order_id, $action, $order_status, $cart, $auth) 
 			$sale->PDT = date('Y-m-d H:i:s', $order_info['timestamp']);
 			$sale->DDT = date('Y-m-d H:i:s', strtotime("+$days days", $order_info['timestamp']));
 			$sale->FN = $order_info['firstname'];
-			$sale->LN = $order_info['lastname'];
+			$sale->LN = substr($order_info['lastname'],0,1);
 			$sale->PC = $order_info['s_zipcode'];
 
 
